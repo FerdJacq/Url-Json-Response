@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Add User-Agent header
     curl_setopt($curl, CURLOPT_HTTPHEADER, [
-        'User-Agent: YourApp' // Replace 'YourApp' with an appropriate name
+        'User-Agent: YourApp'
     ]);
 
     // Execute the cURL request
